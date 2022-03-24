@@ -77,7 +77,12 @@
 
 """17 function"""
 
-def hello():
-    print("hello")
+# def hello():
+#     print("hello")
 
-hello()
+# hello()
+
+def user_age_in_seconds():
+    user_age = int(input("ender your age"))
+    age_seconds = user_age * 365 * 24 * 60 * 60
+    print(f"your age in seconds is {age_seconds}")
