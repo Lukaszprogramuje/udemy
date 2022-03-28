@@ -82,7 +82,65 @@
 
 # hello()
 
-def user_age_in_seconds():
-    user_age = int(input("ender your age"))
-    age_seconds = user_age * 365 * 24 * 60 * 60
-    print(f"your age in seconds is {age_seconds}")
+# def user_age_in_seconds():
+#     user_age = int(input("ender your age "))
+#     age_seconds = user_age * 365 * 24 * 60 * 60
+#     print(f"your age in seconds is {age_seconds}")
+
+# user_age_in_seconds()
+
+
+# friends = ["luke", "bob", "john"]
+
+# def add_friend():
+#     name = input("enter name friend: ")
+#     friends.append(name)
+
+# add_friend()
+
+# print(friends)
+
+"""18 function arguments and parameters"""
+
+# def add(x, y):
+#     result = x + y
+#     print(result)
+
+# add(5, 3)
+
+# def say_hello(name, surname):
+#     print(f"hello, {name} {surname}")
+
+# say_hello("bob", "kowalski")
+
+# def devide(devident, devisor):
+#     if devisor != 0:
+#         print(devident / devisor)
+#     else:
+#         print("error")
+
+# devide(devident = 15, devisor = 0)
+
+"""19 default function parameter values"""
+
+# def add(x, y=8):
+#     result = x + y
+#     print(result)
+
+# add(5, 20)
+
+
+# def add(x, y=8):
+#     return x + y
+
+# print(add(5, 20))
+
+def devide(devident, devisor):
+    if devisor != 0:
+        return devident / devisor
+    else:
+        return "error"
+
+print(devide(15, 5))
+
+
